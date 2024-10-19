@@ -1,0 +1,54 @@
+body {
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* ข้อความ */
+/* ข้อความ */
+.navbar {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    /*justify-content: center; /* จัดกึ่งกลาง */
+}
+.navbar a {
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #424242;
+}
+.section_main{
+    width: 100%;/* ใช้ความกว้างเต็มหน้าจอ */
+    padding: 50px;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 600px;
+    background-color: #48CFCB;
+    box-sizing: border-box; /* รวม padding ไว้ในขอบ */
+}
+.section {
+    width: 100%;/* ใช้ความกว้างเต็มหน้าจอ */
+    padding: 50px;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 600px;
+    background-color: #48CFCB;
+    box-sizing: border-box; /* รวม padding ไว้ในขอบ */
+}
+.section_video {
+    width: 100%;/* ใช้ความกว้างเต็มหน้าจอ */
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 600px;
+    background-color: #f9f9f9;
+    box-sizing: border-box; /* รวม padding ไว้ในขอบ */
+}
