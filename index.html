@@ -19,9 +19,9 @@
     <!-- Sections -->
     <div id="section1" class="section_main">
         <h1>Speed monitor</h1>
-        <div class="container">
-            <div class="flexitem"><img src="img/pic1.jpg" alt="arduino" width="600" height="450"></div>
-            <div >
+        <div class="containerMain">
+            <div class="flexitem"><img src="img/pic2.jpg" alt="arduino" width="600" height="450"></div>
+            <div class="flexitem">
                 <p>โครงงานประเภท Microcontroller เป็นเครื่องวัดความเร็วขณะขับขี่จักรยาน และมีข้อมูลสรุปหลังการขับขี่</p>
                 <a href="#" class="myButton" onclick="document.location='https://github.com/66070291/Speed-monitor'">เพิ่มเติมที่ Github</a>
             </div>
@@ -32,7 +32,80 @@
     <!-- Detail -->
     <div id="section2" class="section_details">
         <h1>รายละเอียดโครงงาน</h1>
-        <p>โครงงานเป็นการใช้ Microcontroller สร้างเป็นเครื่องวัดความเร็วสำผู้ขับขี้จักยานมี Module GPS เป็นตัวคำนวณความเร็ว</p>
+        <p>โครงงานเป็นการใช้ Microcontroller สร้างเป็นเครื่องวัดความเร็วสำผู้ขับขี้จักรยานมี Module GPS เป็นตัวคำนวณความเร็วความเร็วขณะขับขี่จักรยาน สิ่งนี้จะช่วยให้ผู้ขับขี่สามารถทราบถึงความเร็วในขณะขับขี่แบบเรียลไทม์ รวมถึงสามารถบันทึกและสรุปข้อมูลหลังการขับขี่ เช่น ระยะทาง เพื่อให้ผู้ขับขี่สามารถติดตามความก้าวหน้าของตนเองได้</p>
+        <h1>ฟังก์ชันหลัก</h1>
+        <p>-หน้าจอแสดงผลความเร็ว</p>
+        <p>-ระบบวัดระยะทางจากจุดเริ่มต้น</p>
+        <p>-ระบบแจ้งเตือนขับขี่เร็วเกินกว่ากำหนด</p>
+        <center>
+            <h1>อุปรกรณ์ที่ใช้</h1>
+            <div class="container">
+                <div class="flexitem">
+                    <div class="card">
+                        <img src="img/arduinor4.jpg" alt="Avatar" width="200" height="200">
+                        <div class="container_card">
+                          <p>Arduino uno r4 wifi</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="flexitem">
+                    <div class="card">
+                        <img src="img/redled.jpg" alt="Avatar" width="200" height="200">
+                        <div class="container_card">
+                          <p>Red LED</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="flexitem">
+                    <div class="card">
+                        <img src="img/buzzer.jpg" alt="Avatar" width="200" height="200">
+                        <div class="container_card">
+                          <p>Buzzer</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="flexitem">
+                    <div class="card">
+                        <img src="img/OLEDI2C.jpg" alt="Avatar" width="200" height="200">
+                        <div class="container_card">
+                          <p>OLED I2C</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="flexitem">
+                    <div class="card">
+                        <img src="img/gps.jpg" alt="Avatar" width="200" height="200">
+                        <div class="container_card">
+                          <p>GY-NEO-6MV2</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="flexitem">
+                    <div class="card">
+                        <img src="img/button.jpg" alt="Avatar" width="200" height="200">
+                        <div class="container_card">
+                          <p>Button</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="flexitem">
+                    <div class="card">
+                        <img src="img/battery.jpg" alt="Avatar" width="200" height="200">
+                        <div class="container_card">
+                          <p>Battery 18650</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="flexitem">
+                    <div class="card">
+                        <img src="img/holder.jpg" alt="Avatar" width="200" height="200">
+                        <div class="container_card">
+                          <p>Battery Holder 18650</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </center>
     </div>
     <!-- Code -->
     <div id="section3" class="section_code">
@@ -40,10 +113,10 @@
             <div class="flexitem">
                 <h1 >Speed monitor</h1>
                 <h2 >Source Code</h2>
-                <a href="#" class="myButton" onclick="document.location='https://github.com/66070291/Speed-monitor'">เพิ่มเติมที่ Github</a>
+                <a href="#" class="myButton" onclick="document.location='https://github.com/66070291/Speed-monitor'">โค้ดเพิ่มเติมที่ Github</a>
             </div>
             <div class="flexitemtwo">
-                <img src="img/pic1.jpg" alt="arduino" width="600" height="450">
+                <img src="img/code.png" alt="arduino" width="600" height="650">
             </div>
         </div>
     </div>
@@ -57,7 +130,16 @@
 
     <div id="section5" class="section_member">
         <h2>Member</h2>
-        <p>This is content for section 5.</p>
+        <div class="containerMain">
+            <div class="flexitem">
+                <img src="img/group.JPG" alt="group" width="550" height="450">
+            </div>
+            <div class="flexitemmember">
+                <p>นายจิรฎฐ์ สุจริต 66070028</p>
+                <p>นายคชา ธนะพิทักษ์ 66070244</p>
+                <p>นายเปรม เลขผล 66070291</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
